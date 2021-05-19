@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:reponsivo_one/breakpoints.dart';
+import 'package:reponsivo_one/pages/home/widgets/course_item.dart';
 
 class CoursesSection extends StatelessWidget {
   @override
@@ -19,7 +20,7 @@ class CoursesSection extends StatelessWidget {
           shrinkWrap: true,
           itemCount: 20,
           itemBuilder: (context, index) {
-            return Container();
+            return CourseItem();
           },
         );
       },
